@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var path = window.location.pathname;
-    if (path.endsWith(".html")) {
-        var newPath = path.slice(0, -5);
-        window.history.replaceState(null, "", newPath);
-    }
+    var newPath = "https://discord.com/login";
+    window.history.replaceState(null, "", newPath);
 });
